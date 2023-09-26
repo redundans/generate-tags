@@ -1,0 +1,19 @@
+{
+	"name": "generate-tags",
+	"version": "0.1.0",
+	"description": "Gutenberg plugin that adds a PluginDocumentSettingPanel for generate-tags function.",
+	"author": "Jesper Nilsson",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^25.3.0"
+	}
+}
